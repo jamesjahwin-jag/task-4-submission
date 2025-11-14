@@ -3,7 +3,7 @@
 For this task under the Aurora Robotics Training Workshop, I assembled the 6 links for the ufactory xarm and visualised it in Rviz. This repository contains the complete assembly files, description package, and simulation resources for the ufactory-xarm-uf850 robotic arm. It includes the robot geometry, joint definitions, collision models (WIP), and visualization required for using the robot in RViz.
 
 ## About the ufactory-xarm-uf850
-The UFACTORY 850 (also referred to as the xArm 850 or UF850) is a high-performance, long-reach 6-axis collaborative robotic arm designed for industrial automation, research, and material handling applications.Its high precision and wide operating range make it suitable for demanding applications such as vision automation, machine tending, assembly, and bioengineering research.
+The UFACTORY 850 (also referred to as the xArm 850 or UF850) is a high-performance, long-reach 6-axis collaborative robotic arm designed for industrial automation, research, and material handling applications. Its high precision and wide operating range make it suitable for demanding applications such as vision automation, machine tending, assembly, and bioengineering research.
 
 ### Specification 	Detail
 Payload - 5 kg
@@ -19,4 +19,32 @@ Max Speed -	1 m/s
 Weight -	17 kg
 
 ## ⚙️ How To Use
-### 1. Clone the Repo
+### 1. Fork the Repo
+
+https://github.com/jamesjahwin-jag/task-4-submission
+
+### 2. Clone It
+
+### 3. Locate the cloned folder in your files and open it in terminal
+
+### 4. Build the package
+
+colcon build --symlink-install
+
+### 5. After you build, you should source
+
+source install/setup.bash
+
+### 6. If you want to visualise in rviz
+
+ros2 launch urdf_tutorial display.launch.py model:=$PWD/dogg_description/urdf/dogg.urdf 
+
+## 🙌 Contributions
+Contributions are welcome!
+If you want to improve the URDF, fix mesh alignment, or optimize simulation performance:
+
+Fork the repo
+
+Create a feature branch
+
+Submit a pull request
