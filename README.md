@@ -45,6 +45,6 @@ If you want to improve the URDF, fix mesh alignment, or optimize simulation perf
 
 ### * Fork the repo
 
-### *Create a feature branch
+### * Create a feature branch
 
 ### * Submit a pull request
