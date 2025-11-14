@@ -6,10 +6,16 @@
       <geometry>
         <mesh filename="package://xarm_description/meshes/link_base.stl" scale="1.0 1.0 1.0"/>
       </geometry>
-      <material name="grey">
+      <material name="white">
         <color rgba="0.5 0.5 0.5 1.0"/>
       </material>
     </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://xarm_description/meshes/link_base.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
   </link>
 
   <link name="link1">
@@ -18,10 +24,16 @@
       <geometry>
         <mesh filename="package://xarm_description/meshes/link1.stl" scale="1.0 1.0 1.0"/>
       </geometry>
-      <material name="grey">
-        <color rgba="1 1 1 1.0"/>
+      <material name="white">
+        <color rgba="0 0 0 0"/>
       </material>
     </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://xarm_description/meshes/link1.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
   </link>
 
   <joint name="base_to_link1" type="revolute">
@@ -38,10 +50,16 @@
     <geometry>
       <mesh filename="package://xarm_description/meshes/link2.stl" scale="1.0 1.0 1.0"/>
     </geometry>
-    <material name="grey">
-      <color rgba="1 1 1 1.0"/>
+    <material name="white">
+      <color rgba="0 0 0 0"/>
     </material>
     </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5708 -1.5708 0" />
+      <geometry>
+       <mesh filename="package://xarm_description/meshes/link2.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
   </link>
 
   <joint name="link1_to_link2" type="revolute">
@@ -58,10 +76,16 @@
     <geometry>
       <mesh filename="package://xarm_description/meshes/link3.stl" scale="1.0 1.0 1.0"/>
     </geometry>
-    <material name="grey">
-      <color rgba="1 1 1 1.0"/>
+    <material name="white">
+      <color rgba="0 0 0 0"/>
     </material>
     </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://xarm_description/meshes/link3.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
   </link>
 
   <joint name="link2_to_link3" type="revolute">
@@ -78,10 +102,16 @@
     <geometry>
       <mesh filename="package://xarm_description/meshes/link4.stl" scale="1.0 1.0 1.0"/>
     </geometry>
-    <material name="grey">
-      <color rgba="1 1 1 1"/>
+    <material name="white">
+      <color rgba="0 0 0 0"/>
     </material>
     </visual>
+    <collision>
+      <origin xyz="0 0 -0.265" rpy="0 3.1416 -3.1416"/>
+      <geometry>
+        <mesh filename="package://xarm_description/meshes/link4.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
   </link>
 
   <joint name="link3_to_link4" type="revolute">
@@ -98,10 +128,16 @@
       <geometry>
         <mesh filename="package://xarm_description/meshes/link5.stl" scale="1.0 1.0 1.0"/>
       </geometry>
-      <material name="grey">
-        <color rgba="1 1 1 1"/>
+      <material name="white">
+        <color rgba="0 0 0 0"/>
       </material>
     </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://xarm_description/meshes/link5.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
   </link>
 
   <joint name="link4_to_link5" type="revolute">
@@ -118,10 +154,16 @@
       <geometry>
         <mesh filename="package://xarm_description/meshes/link6.stl" scale="1.0 1.0 1.0"/>
       </geometry>
-      <material name="grey">
-        <color rgba="1 1 1 1.0"/>
+      <material name="white">
+        <color rgba="0 0 0 0"/>
       </material>
     </visual>
+    <collision>
+      <origin xyz="0 0 -0.088" rpy="0 3.1416 0"/>
+      <geometry>
+        <mesh filename="package://xarm_description/meshes/link6.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
   </link>
 
   <joint name="link5_to_link6" type="revolute">
