@@ -37,7 +37,7 @@ source install/setup.bash
 
 ### 6. If you want to visualise in rviz
 
-ros2 launch urdf_tutorial display.launch.py model:=$PWD/dogg_description/urdf/dogg.urdf 
+ros2 launch urdf_tutorial display.launch.py model:=$PWD/xarm_description/urdf/Xarm.urdf
 
 ## 🙌 Contributions
 Contributions are welcome!
